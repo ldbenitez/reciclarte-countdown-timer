@@ -1,6 +1,6 @@
 <script>
   import { intervalToDuration } from "date-fns";
-  const target_date = new Date(2022, 2, 5, 16);
+  const target_date = new Date(2022, 2, 5, 14);
 
   function zero_padding(num){
     return num>0 && num<10 ? `0${num}` : `${num}`
