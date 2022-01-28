@@ -4,6 +4,6 @@
 </script>
 
 <main class="min-h-screen bg-neutral-800">
-  <!-- <ReciclarteImage/> -->
+  <ReciclarteImage/>
   <CountDown/>
 </main>
