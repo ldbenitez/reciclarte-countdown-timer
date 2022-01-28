@@ -3,7 +3,7 @@
   import ReciclarteImage from "./lib/ReciclarteImage.svelte";
 </script>
 
-<main>
+<main class="min-h-screen bg-neutral-800">
   <!-- <ReciclarteImage/> -->
   <CountDown/>
 </main>
