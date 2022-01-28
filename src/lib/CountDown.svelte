@@ -25,14 +25,12 @@
   }, 1000);
 </script>
 
-<div class="font-extrabold text-white flex flex-col justify-center mt-10 xl:mt-20">
-  <!-- <h1 class="mb-3 text-center text-2xl xl:text-6xl">¿Cuánto falta para el festival?</h1> -->
-  <div class="flex justify-center text-xl xl:text-4xl mt-5 xl:mt-10">
-    <div class="flex flex-col items-center justify-center mx-2 xl:mx-5">
-      <h3 class="xl:text-6xl">
+<div class="flex flex-col justify-between text-center items-stretch font-sans font-bold md:flex-row md:justify-evenly">
+    <div class="pt-5 md:w-40">
+      <h3 class="text-4xl md:text-7xl">
         {zero_padding(time_remainig.days)}
       </h3>
-      <h4 class="xl:mt-2">
+      <h4 class="text-xl md:text-3xl">
         {#if time_remainig.days == 1}
           día
         {:else}
@@ -40,11 +38,11 @@
         {/if}
       </h4>
     </div>
-    <div class="flex flex-col items-center justify-center mx-2 xl:mx-5">
-      <h3 class="xl:text-6xl">
+    <div class="pt-5 md:w-40">
+      <h3 class="text-4xl md:text-7xl">
         {zero_padding(time_remainig.hours)}
       </h3>
-      <h4 class="xl:mt-2">
+      <h4 class="text-xl md:text-3xl">
         {#if time_remainig.hours == 1}
           hora
         {:else}
@@ -52,11 +50,11 @@
         {/if}
       </h4>
     </div>
-    <div class="flex flex-col items-center justify-center  mx-2 xl:mx-5">
-      <h3 class="xl:text-6xl">
+    <div class="pt-5 md:w-40">
+      <h3 class="text-4xl md:text-7xl">
         {zero_padding(time_remainig.minutes)}
       </h3>
-      <h4 class="xl:mt-2">
+      <h4 class="text-xl md:text-3xl">
         {#if time_remainig.minutes == 1}
           minuto
         {:else}
@@ -64,11 +62,11 @@
         {/if}
       </h4>
     </div>
-    <div class="flex flex-col items-center justify-center  mx-2 xl:mx-5">
-      <h3 class="xl:text-6xl">
+    <div class="pt-5 md:w-40">
+      <h3 class="text-4xl md:text-7xl">
         {zero_padding(time_remainig.seconds)}
       </h3>
-      <h4 class="xl:mt-2">
+      <h4 class="text-xl md:text-3xl">
         {#if time_remainig.seconds == 1}
           segundo
         {:else}
@@ -76,5 +74,4 @@
         {/if}
       </h4>
     </div>
-  </div>
 </div>
