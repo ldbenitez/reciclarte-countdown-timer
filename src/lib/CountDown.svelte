@@ -25,7 +25,7 @@
   }, 1000);
 </script>
 
-<div class="flex flex-col justify-evenly md:flex-row md:justify-evenly md:items-center text-center items-stretch font-mono font-bold text-zinc-300">
+<div class="flex flex-col justify-evenly md:flex-row md:justify-evenly md:items-center text-center items-stretch text-zinc-300">
     <div class="pt-5 md:w-40">
       <h3 class="text-4xl md:text-7xl">
         {zero_padding(time_remainig.days)}

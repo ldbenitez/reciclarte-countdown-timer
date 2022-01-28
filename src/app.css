@@ -1,7 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 /* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-/* * { outline: solid 1px red; } */
